@@ -1,0 +1,852 @@
+ html,
+ body {
+     position: relative;
+     height: 100%;
+ }
+ 
+ body {
+     background: #eee;
+     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+     font-size: 14px;
+     color: #000;
+     margin: 0;
+     padding: 0;
+ }
+ 
+ .swiper-container {
+     width: 100%;
+     height: 100%;
+ }
+ 
+ .swiper-slide {
+     text-align: center;
+     font-size: 18px;
+     background: #fff;
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: -webkit-flex;
+     display: flex;
+     -webkit-box-pack: center;
+     -ms-flex-pack: center;
+     -webkit-justify-content: center;
+     justify-content: center;
+     -webkit-box-align: center;
+     -ms-flex-align: center;
+     -webkit-align-items: center;
+     align-items: center;
+ }
+ /*第一页*/
+ 
+ #face,
+ #res,
+ #body,
+ #menu {
+     width: 100%;
+     height: 100%;
+ }
+ 
+ #face {
+     background-image: url(../image/face.png);
+     background-size: cover;
+ }
+ 
+ #res {
+     background-color: rgba(8, 161, 239, 0.329412);
+ }
+ 
+ #music {
+     width: 98%;
+     height: 8%;
+     display: flex;
+     flex-direction: row-reverse;
+ }
+ 
+ .music-1 {
+     background-image: url(../image/music.svg);
+     background-size: cover;
+     width: 2rem;
+     height: 80%;
+     align-self: flex-end;
+ }
+ 
+ .rotate {
+     -webkit-animation: mu 1.2s infinite linear;
+     animation: mu 1.5s infinite linear;
+ }
+ 
+ @-webkit-keyframes mu {
+     0% {
+         -webkit-transform: rotate(0);
+         transform: rotate(0);
+     }
+     100% {
+         -webkit-transform: rotate(360deg);
+         transform: rotate(360deg);
+     }
+ }
+ 
+ @keyframes mu {
+     0% {
+         -webkit-transform: rotate(0);
+         transform: rotate(0);
+     }
+     100% {
+         -webkit-transform: rotate(360deg);
+         transform: rotate(360deg);
+     }
+ }
+ 
+ .pop {
+     background-image: url(../image/04.png);
+     width: 80%;
+     height: 75%;
+     margin: 0 auto;
+     background-size: cover;
+     color: #fff;
+     display: flex;
+ }
+ 
+ .pop-1 {
+     width: 100%;
+     height: 80%;
+     align-self: flex-end;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+ }
+ 
+ .jianli {
+     width: 90%;
+     height: 1rem;
+     font-size: 2rem;
+     margin: 0 auto;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+ }
+ 
+ .job {
+     font-size: 2rem;
+ }
+ 
+ .name {
+     width: 40%;
+     height: 10%;
+     border: 2px solid #fff;
+     font-size: 1rem;
+     margin: 0 auto;
+ }
+ 
+ .arrow {
+     width: 2.5rem;
+     height: 2.5rem;
+     margin: 0 auto;
+     margin-top: 50px;
+     -webkit-animation: start 1.5s infinite ease-in-out;
+     animation: start 1.5s infinite ease-in-out;
+ }
+ 
+ .arrow img {
+     width: 100%;
+     height: 100%;
+ }
+ 
+ @-webkit-keyframes start {
+     0% {
+         -webkit-transform: translateY(0);
+         transform: translateY(0);
+     }
+     100% {
+         -webkit-transform: translateY(-150%);
+         transform: translateY(-150%);
+         opacity: 0;
+     }
+ }
+ 
+ @keyframes start {
+     0% {
+         -webkit-transform: translateY(0);
+         transform: translateY(0);
+     }
+     100% {
+         -webkit-transform: translateY(-150%);
+         transform: translateY(-150%);
+         opacity: 0;
+     }
+ }
+ /*第二页*/
+ 
+ #body {
+     background-image: url(../image/body.png);
+     background-size: cover;
+ }
+ 
+ .section {
+     width: 80%;
+     height: 75%;
+     margin: 0 auto;
+     background-size: cover;
+     color: #fff;
+ }
+ 
+ .section-1 {
+     width: 100%;
+     height: 20%;
+     display: flex;
+ }
+ 
+ #menu {
+     display: flex;
+     justify-content: center;
+     border-bottom: 0.1rem solid #fff;
+     align-items: flex-end;
+ }
+ 
+ .menu-1 {
+     font-size: 2rem;
+ }
+ 
+ .menu-2 {
+     font-size: 1.52rem;
+ }
+ 
+ #were {
+     width: 100%;
+     height: 20%;
+     display: flex;
+ }
+ 
+ .section-2 {
+     width: 100%;
+     height: 15%;
+     display: flex;
+ }
+ 
+ .img {
+     width: 100%;
+     height: 80%;
+     background-image: url(../image/01.png);
+     align-self: flex-end;
+     color: rgb(8, 161, 239);
+     display: flex;
+     justify-content: center;
+ }
+ 
+ .img-1 {
+     width: 80%;
+     height: 80%;
+     margin: 0 auto;
+     display: flex;
+     align-items: flex-end;
+     font-size: 1rem;
+     align-self: center;
+ }
+ 
+ .img-1 span {
+     font-size: 0.6rem;
+ }
+ /*第三页*/
+ 
+ .three,
+ .fore,
+ .five,
+ .six {
+     width: 80%;
+     height: 75%;
+     margin: 0 auto;
+     background-size: cover;
+     color: #fff;
+ }
+ 
+ .three-1 {
+     width: 100%;
+     height: 30%;
+     border-bottom: 0.2rem dashed #fff;
+     display: flex;
+     justify-content: center;
+ }
+ 
+ .attr,
+ .attr-1,
+ .img-M,
+ .img-M img {
+     width: 5rem;
+     height: 5rem;
+     border-radius: 50%;
+ }
+ 
+ .attr {
+     align-self: center;
+ }
+ 
+ .attr-1 {
+     align-self: center;
+     background-image: url(../image/attr.jpg);
+     background-size: cover;
+ }
+ 
+ .img-M img {
+     align-self: center;
+ }
+ 
+ .top {
+     -webkit-animation: top_1 2s infinite linear;
+     animation: top_1 5s infinite linear;
+ }
+ 
+ @-webkit-keyframes top_1 {
+     0% {
+         -webkit-transform: rotate(0);
+         transform: rotate(0);
+     }
+     100% {
+         -webkit-transform: rotate(360deg);
+         transform: rotate(360deg);
+     }
+ }
+ 
+ @keyframes top_1 {
+     0% {
+         -webkit-transform: rotate(0);
+         transform: rotate(0);
+     }
+     100% {
+         -webkit-transform: rotate(360deg);
+         transform: rotate(360deg);
+     }
+ }
+ 
+ .three-2 {
+     width: 100%;
+     height: 70%;
+ }
+ 
+ .three-3 {
+     width: 100%;
+     height: 18%;
+     display: flex;
+ }
+ 
+ .th-3-1 {
+     width: 3rem;
+     height: 3rem;
+     display: flex;
+     justify-content: center;
+ }
+ 
+ .th-3-1-2 {
+     width: 1.5rem;
+     height: 1.5rem;
+     border: 0.1rem solid #fff;
+     display: flex;
+     align-self: center;
+     border-radius: 1.5rem;
+ }
+ 
+ .th-3-2 {
+     width: 10rem;
+     height: 3rem;
+     border-bottom: 0.1rem solid #fff;
+     display: flex;
+ }
+ 
+ .th-3-2-2 {
+     font-size: 1rem;
+     display: flex;
+     align-self: center;
+ }
+ /*第四页*/
+ 
+ .fore-1,
+ .five-1 {
+     width: 100%;
+     height: 15%;
+     border-bottom: 0.2rem dashed #fff;
+     display: flex;
+ }
+ 
+ .fore-1-attr,
+ .five-1-attr {
+     width: 3rem;
+     height: 3rem;
+     align-self: center;
+     border-radius: 50%;
+ }
+ 
+ .fore-2-attr,
+ .five-2-attr {
+     width: 8rem;
+     height: 4rem;
+     align-self: center;
+     display: flex;
+     justify-content: center;
+ }
+ 
+ .fore-2-attr-2,
+ .five-2-attr-2 {
+     align-self: center;
+     font-size: 1.5rem;
+ }
+ 
+ .fore-1-attr-1,
+ .five-1-attr-1,
+ .six-1-attr-1 {
+     width: 3rem;
+     height: 3rem;
+     align-self: center;
+     border-radius: 50%;
+     background-size: cover;
+ }
+ 
+ .fore-1-attr-1 {
+     background-image: url(../image/技能.png);
+ }
+ 
+ .img-F {
+     width: 3rem;
+     height: 3rem;
+     border-radius: 50%;
+ }
+ 
+ .img-F img {
+     width: 3rem;
+     height: 3rem;
+     align-self: center;
+     border-radius: 50%;
+ }
+ 
+ .JN {
+     -webkit-animation: top_1 2s infinite linear;
+     animation: top_1 5s infinite linear;
+ }
+ 
+ @-webkit-keyframes top_1 {
+     0% {
+         -webkit-transform: rotate(0);
+         transform: rotate(0);
+     }
+     100% {
+         -webkit-transform: rotate(360deg);
+         transform: rotate(360deg);
+     }
+ }
+ 
+ @keyframes top_1 {
+     0% {
+         -webkit-transform: rotate(0);
+         transform: rotate(0);
+     }
+     100% {
+         -webkit-transform: rotate(360deg);
+         transform: rotate(360deg);
+     }
+ }
+ 
+ .fore-2 {
+     width: 100%;
+     height: 85%;
+ }
+ 
+ .fore-3 {
+     width: 100%;
+     height: 13%;
+     display: flex;
+ }
+ 
+ .fore-3-1 {
+     width: 3rem;
+     height: 2.5rem;
+     display: flex;
+ }
+ 
+ .fore-3-1-2 {
+     width: 1.7rem;
+     height: 1.7rem;
+     border: 0.1rem dashed #fff;
+     background-color: #fff;
+     color: rgb(8, 161, 239);
+     display: flex;
+     align-self: flex-end;
+     border-radius: 1.7rem;
+     justify-content: center;
+ }
+ 
+ .fore-3-2 {
+     width: 11rem;
+     height: 2.5rem;
+     display: flex;
+ }
+ 
+ .fore-3-2-2,
+ .fore-3-2-2,
+ .fore-3-2-4 {
+     display: flex;
+     align-self: flex-end;
+     background-color: rgb(8, 161, 239);
+ }
+ 
+ .fore-3-2-2 {
+     width: 10rem;
+     height: 1.5rem;
+ }
+ 
+ .fore-3-2-3 {
+     width: 8rem;
+     height: 1.5rem;
+     justify-content: center;
+ }
+ 
+ .fore-3-2-4 {
+     width: 9rem;
+     height: 1.5rem;
+     justify-content: center;
+ }
+ 
+ .fore-4 {
+     width: 100%;
+     height: 35%;
+     display: flex;
+ }
+ 
+ .fore-4-1 {
+     width: 4rem;
+     height: 4rem;
+     align-self: center;
+     display: flex;
+     justify-content: flex-end;
+ }
+ 
+ .fore-4-1-2 {
+     width: 2.5rem;
+     height: 2.5rem;
+     border-radius: 2.5rem;
+     background-color: #fff;
+     display: flex;
+     justify-content: center;
+     color: rgb(8, 161, 239);
+ }
+ 
+ .fore-4-1-3 {
+     display: flex;
+     align-self: center;
+ }
+ 
+ .fore-4-2 {
+     width: 4rem;
+     height: 5rem;
+     align-self: flex-end;
+     display: flex;
+     justify-content: flex-end;
+ }
+ 
+ .fore-4-2-2 {
+     width: 3.5rem;
+     height: 3.5rem;
+     border-radius: 3.5rem;
+     background-color: #fff;
+     color: rgb(8, 161, 239);
+     display: flex;
+     justify-content: flex-end;
+     align-self: flex-end;
+     justify-content: center;
+ }
+ 
+ .fore-4-3 {
+     width: 4rem;
+     height: 5rem;
+     display: flex;
+     justify-content: flex-end;
+ }
+ 
+ .fore-4-3-2 {
+     width: 2rem;
+     height: 2rem;
+     border-radius: 2rem;
+     background-color: #fff;
+     align-self: flex-end;
+     display: flex;
+     color: rgb(8, 161, 239);
+     justify-content: center;
+ }
+ 
+ .fore-4-4 {
+     width: 4rem;
+     height: 6rem;
+     align-self: flex-end;
+     display: flex;
+     justify-content: flex-end;
+ }
+ 
+ .fore-4-4-2 {
+     width: 2.5rem;
+     height: 2.5rem;
+     border-radius: 2.5rem;
+     background-color: #fff;
+     color: rgb(8, 161, 239);
+     justify-content: center;
+     display: flex;
+ }
+ /*第五页*/
+ 
+ .five-2-attr {
+     width: 8rem;
+     height: 4rem;
+     align-self: center;
+     display: flex;
+     justify-content: center;
+ }
+ 
+ .five-2-attr-2 {
+     align-self: center;
+     font-size: 1.5rem;
+ }
+ 
+ .five-1-attr-1 {
+     background-image: url(../image/工作.png);
+ }
+ 
+ .img-F {
+     width: 3rem;
+     height: 3rem;
+     border-radius: 50%;
+ }
+ 
+ .img-G img {
+     width: 3rem;
+     height: 3rem;
+     align-self: center;
+     border-radius: 50%;
+ }
+ 
+ .JY {
+     -webkit-animation: top_2 2s infinite linear;
+     animation: top_2 5s infinite linear;
+ }
+ 
+ @-webkit-keyframes top_2 {
+     0% {
+         -webkit-transform: rotate(0);
+         transform: rotate(0);
+     }
+     100% {
+         -webkit-transform: rotate(360deg);
+         transform: rotate(360deg);
+     }
+ }
+ 
+ @keyframes top_2 {
+     0% {
+         -webkit-transform: rotate(0);
+         transform: rotate(0);
+     }
+     100% {
+         -webkit-transform: rotate(360deg);
+         transform: rotate(360deg);
+     }
+ }
+ 
+ .fore-2 {
+     width: 100%;
+     height: 85%;
+ }
+ 
+ .con_p4 {
+     width: 95%;
+     margin: 0 auto;
+ }
+ 
+ .con_p4_cen {
+     display: flex;
+     justify-content: space-between;
+     color: #fff;
+     margin-top: 1.440rem;
+ }
+ 
+ .con_p4_cen_1,
+ .con_p4_cen_3,
+ .con_p4_cen_2 {
+     display: flex;
+     flex-direction: column;
+     text-align: left;
+ }
+ 
+ .con_p4_cen_1 {
+     width: 32%;
+     margin-top: 0.480rem;
+ }
+ 
+ .con_p4_cen_2 {
+     width: 10%;
+ }
+ 
+ .con_p4_cen_2 span {
+     display: block;
+     height: 2.400rem;
+     width: 0rem;
+     border: 0.048rem solid rgb(8, 161, 239);
+     align-self: center
+ }
+ 
+ .con_p4_cen_2 .con_p4_cen_2_1 {
+     height: 1.776rem;
+ }
+ 
+ .con_p4_cen_2 div {
+     border-radius: 50%;
+     width: 1.440rem;
+     height: 1.440rem;
+     display: flex;
+     justify-content: center;
+     border: 0.048rem solid rgb(8, 161, 239);
+ }
+ 
+ .con_p4_cen_2 div p {
+     background: rgb(8, 161, 239);
+     border-radius: 50%;
+     width: 0.960rem;
+     height: 0.960rem;
+     align-self: center;
+ }
+ 
+ .con_p4_cen_3 {
+     width: 60%;
+     margin-top: 0.480rem;
+ }
+ 
+ .date {
+     padding: 0.720rem 0 0.720rem 0.720rem;
+ }
+ 
+ .date_1 {
+     padding: 0.720rem;
+ }
+ /*第六页*/
+ 
+ .six-1 {
+     width: 100%;
+     height: 15%;
+     border-bottom: 0.2rem dashed #fff;
+     display: flex;
+ }
+ 
+ .six-1-attr,
+ .img-S,
+ .img-S img {
+     width: 3rem;
+     height: 3rem;
+ }
+ 
+ .six-1-attr {
+     align-self: center;
+     border-radius: 50%;
+ }
+ 
+ .six-2-attr {
+     width: 8rem;
+     height: 4rem;
+ }
+ 
+ .six-2-attr-2 {
+     align-self: center;
+     font-size: 1.5rem;
+ }
+ 
+ .six-1-attr-1 {
+     background-image: url(../image/作品.png);
+ }
+ 
+ .img-S {
+     border-radius: 50%;
+ }
+ 
+ .img-S img {
+     align-self: center;
+     border-radius: 50%;
+ }
+ 
+ .PN {
+     -webkit-animation: top_1 2s infinite linear;
+     animation: top_1 5s infinite linear;
+ }
+ 
+ @-webkit-keyframes top_1 {
+     0% {
+         -webkit-transform: rotate(0);
+         transform: rotate(0);
+     }
+     100% {
+         -webkit-transform: rotate(360deg);
+         transform: rotate(360deg);
+     }
+ }
+ 
+ @keyframes top_1 {
+     0% {
+         -webkit-transform: rotate(0);
+         transform: rotate(0);
+     }
+     100% {
+         -webkit-transform: rotate(360deg);
+         transform: rotate(360deg);
+     }
+ }
+ 
+ .six-2 {
+     width: 100%;
+     height: 85%;
+ }
+ 
+ .six-2-1,
+ .six-2-2 {
+     width: 100%;
+     height: 50%;
+ }
+ 
+ .six-2-1,
+ .six-2-2,
+ .six-2-1-1,
+ .six-2-1-2,
+ .six-2-2-1,
+ .six-2-2-2,
+ .six-2-attr {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ 
+ .six-2-1-1,
+ .six-2-1-2,
+ .six-2-2-1,
+ .six-2-2-2 {
+     width: 45%;
+     height: 90%;
+ }
+ 
+ .six-2-1-1,
+ .six-2-2-2 {
+     background-color: rgba(255, 255, 255, 0.5);
+ }
+ 
+ .six-2-1-2,
+ .six-2-2-1 {
+     background-color: rgba(8, 161, 239, 0.5);
+ }
+ 
+ .six-img-1,
+ .six-img-2 {
+     width: 90%;
+     height: 90%;
+ }
+ 
+ .six-img-1 {
+     background-color: #fff;
+ }
+ 
+ .six-img-2 {
+     font-size: 0.6rem;
+ }
+ 
+ .six-img-1 img {
+     width: 100%;
+     height: 100%;
+ }
