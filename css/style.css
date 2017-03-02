@@ -636,13 +636,11 @@
      align-self: center;
      display: flex;
      justify-content: center;
-     border: 1px solid red;
  }
  
  .five-2-attr-2 {
      align-self: center;
      font-size: 1.3rem;
-     border: 1px solid red;
  }
  
  .five-1-attr-1 {
@@ -694,13 +692,11 @@
      height: 20rem;
      display: flex;
      align-items: center;
-     border: 1px solid red;
  }
  
  .five-2-F {
      width: 14rem;
      height: 20rem;
-     border: 1px solid red;
  }
  
  .five-F-1 {
@@ -708,7 +704,6 @@
      height: 4.5rem;
      display: flex;
      justify-content: center;
-     border: 1px solid red;
  }
  
  .five-F-1-a {
@@ -717,7 +712,6 @@
      display: flex;
      align-items: center;
      font-size: 0.6rem;
-     border: 1px solid red;
  }
  
  .five-F-1-b {
@@ -725,7 +719,6 @@
      height: 4.5rem;
      display: flex;
      align-items: center;
-     border: 1px solid red;
  }
  
  .five-F-1-c {
@@ -734,7 +727,6 @@
      display: flex;
      align-items: center;
      font-size: 0.8rem;
-     border: 1px solid red;
  }
  /*第六页*/
  
