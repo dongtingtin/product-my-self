@@ -52,6 +52,8 @@
  
  #res {
      background-color: rgba(8, 161, 239, 0.329412);
+     display: flex;
+     justify-content: center;
  }
  
  #music {
@@ -100,17 +102,18 @@
  
  .pop {
      background-image: url(../image/04.png);
-     width: 15rem;
-     height: 25rem;
-     margin: 0 auto;
+     width: 14rem;
+     height: 23rem;
      background-size: cover;
      color: #fff;
      display: flex;
+     border: 1px solid red;
+     align-self: center;
  }
  
  .pop-1 {
-     width: 15rem;
-     height: 19rem;
+     width: 14rem;
+     height: 18rem;
      align-self: flex-end;
      display: flex;
      flex-direction: column;
@@ -127,14 +130,14 @@
  }
  
  .job {
-     font-size: 2rem;
+     font-size: 1.8rem;
  }
  
  .name {
      width: 5rem;
      height: 2rem;
      border: 2px solid #fff;
-     font-size: 1rem;
+     font-size: 0.8rem;
      display: flex;
      justify-content: center;
      align-items: center;
