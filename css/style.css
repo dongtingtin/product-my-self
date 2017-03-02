@@ -55,18 +55,20 @@
  }
  
  #music {
-     width: 98%;
-     height: 8%;
+     width: 17rem;
+     height: 3rem;
      display: flex;
      flex-direction: row-reverse;
+     /*border: 1px solid red;*/
  }
  
  .music-1 {
-     background-image: url(../image/music.png);
+     background-image: url(../image/音乐.png);
      background-size: cover;
-     width: 2.1rem;
-     height: 81%;
+     width: 2rem;
+     height: 2rem;
      align-self: flex-end;
+     /*border: 1px solid red;*/
  }
  
  .rotate {
@@ -98,8 +100,8 @@
  
  .pop {
      background-image: url(../image/04.png);
-     width: 80%;
-     height: 75%;
+     width: 15rem;
+     height: 25rem;
      margin: 0 auto;
      background-size: cover;
      color: #fff;
@@ -107,8 +109,8 @@
  }
  
  .pop-1 {
-     width: 100%;
-     height: 80%;
+     width: 15rem;
+     height: 19rem;
      align-self: flex-end;
      display: flex;
      flex-direction: column;
@@ -116,12 +118,11 @@
  }
  
  .jianli {
-     width: 90%;
-     height: 1rem;
+     width: 14rem;
+     height: 3rem;
      font-size: 2rem;
      margin: 0 auto;
      display: flex;
-     flex-direction: row;
      justify-content: space-between;
  }
  
@@ -130,10 +131,13 @@
  }
  
  .name {
-     width: 40%;
-     height: 10%;
+     width: 5rem;
+     height: 2rem;
      border: 2px solid #fff;
      font-size: 1rem;
+     display: flex;
+     justify-content: center;
+     align-items: center;
      margin: 0 auto;
  }
  
@@ -147,8 +151,8 @@
  }
  
  .arrow img {
-     width: 100%;
-     height: 100%;
+     width: 2rem;
+     height: 2rem;
  }
  
  @-webkit-keyframes start {
@@ -182,16 +186,16 @@
  }
  
  .section {
-     width: 80%;
-     height: 75%;
+     width: 15rem;
+     height: 25rem;
      margin: 0 auto;
      background-size: cover;
      color: #fff;
  }
  
  .section-1 {
-     width: 100%;
-     height: 20%;
+     width: 15rem;
+     height: 4rem;
      display: flex;
  }
  
@@ -210,22 +214,17 @@
      font-size: 1.52rem;
  }
  
- #were {
-     width: 100%;
-     height: 20%;
-     display: flex;
- }
- 
  .section-2 {
-     width: 100%;
-     height: 15%;
+     width: 15rem;
+     height: 3.5rem;
      display: flex;
  }
  
  .img {
-     width: 100%;
-     height: 80%;
+     width: 15rem;
+     height: 3rem;
      background-image: url(../image/01.png);
+     background-size: cover;
      align-self: flex-end;
      color: rgb(8, 161, 239);
      display: flex;
@@ -233,8 +232,8 @@
  }
  
  .img-1 {
-     width: 80%;
-     height: 80%;
+     width: 13rem;
+     height: 2rem;
      margin: 0 auto;
      display: flex;
      align-items: flex-end;
@@ -251,16 +250,16 @@
  .fore,
  .five,
  .six {
-     width: 80%;
-     height: 75%;
+     width: 15rem;
+     height: 25rem;
      margin: 0 auto;
      background-size: cover;
      color: #fff;
  }
  
  .three-1 {
-     width: 100%;
-     height: 30%;
+     width: 15rem;
+     height: 5rem;
      border-bottom: 0.2rem dashed #fff;
      display: flex;
      justify-content: center;
@@ -270,8 +269,8 @@
  .attr-1,
  .img-M,
  .img-M img {
-     width: 5rem;
-     height: 5rem;
+     width: 4.5rem;
+     height: 4.5rem;
      border-radius: 50%;
  }
  
@@ -317,13 +316,13 @@
  }
  
  .three-2 {
-     width: 100%;
-     height: 70%;
+     width: 15rem;
+     height: 19rem;
  }
  
  .three-3 {
-     width: 100%;
-     height: 18%;
+     width: 15rem;
+     height: 3rem;
      display: flex;
  }
  
@@ -359,8 +358,8 @@
  
  .fore-1,
  .five-1 {
-     width: 100%;
-     height: 15%;
+     width: 15rem;
+     height: 4rem;
      border-bottom: 0.2rem dashed #fff;
      display: flex;
  }
@@ -443,13 +442,13 @@
  }
  
  .fore-2 {
-     width: 100%;
-     height: 85%;
+     width: 15rem;
+     height: 20rem;
  }
  
  .fore-3 {
-     width: 100%;
-     height: 13%;
+     width: 15rem;
+     height: 2.5rem;
      display: flex;
  }
  
@@ -504,8 +503,8 @@
  }
  
  .fore-4 {
-     width: 100%;
-     height: 35%;
+     width: 15rem;
+     height: 7rem;
      display: flex;
  }
  
@@ -646,86 +645,50 @@
      }
  }
  
- .fore-2 {
-     width: 100%;
-     height: 85%;
- }
- 
- .con_p4 {
-     width: 95%;
-     margin: 0 auto;
- }
- 
- .con_p4_cen {
+ .five-2 {
+     width: 15rem;
+     height: 19rem;
      display: flex;
-     justify-content: space-between;
-     color: #fff;
-     margin-top: 1.440rem;
+     align-items: center;
  }
  
- .con_p4_cen_1,
- .con_p4_cen_3,
- .con_p4_cen_2 {
-     display: flex;
-     flex-direction: column;
-     text-align: left;
+ .five-2-F {
+     width: 15rem;
+     height: 19rem;
  }
  
- .con_p4_cen_1 {
-     width: 32%;
-     margin-top: 0.480rem;
- }
- 
- .con_p4_cen_2 {
-     width: 10%;
- }
- 
- .con_p4_cen_2 span {
-     display: block;
-     height: 2.400rem;
-     width: 0rem;
-     border: 0.048rem solid rgb(8, 161, 239);
-     align-self: center
- }
- 
- .con_p4_cen_2 .con_p4_cen_2_1 {
-     height: 1.776rem;
- }
- 
- .con_p4_cen_2 div {
-     border-radius: 50%;
-     width: 1.440rem;
-     height: 1.440rem;
+ .five-F-1 {
+     width: 15rem;
+     height: 4.5rem;
      display: flex;
      justify-content: center;
-     border: 0.048rem solid rgb(8, 161, 239);
  }
  
- .con_p4_cen_2 div p {
-     background: rgb(8, 161, 239);
-     border-radius: 50%;
-     width: 0.960rem;
-     height: 0.960rem;
-     align-self: center;
+ .five-F-1-a {
+     width: 4rem;
+     height: 4.5rem;
+     display: flex;
+     align-items: center;
  }
  
- .con_p4_cen_3 {
-     width: 60%;
-     margin-top: 0.480rem;
+ .five-F-1-b {
+     width: 2rem;
+     height: 4.5rem;
+     display: flex;
+     align-items: center;
  }
  
- .date {
-     padding: 0.720rem 0 0.720rem 0.720rem;
- }
- 
- .date_1 {
-     padding: 0.720rem;
+ .five-F-1-c {
+     width: 8.5rem;
+     height: 4.5rem;
+     display: flex;
+     align-items: center;
  }
  /*第六页*/
  
  .six-1 {
-     width: 100%;
-     height: 15%;
+     width: 15rem;
+     height: 4rem;
      border-bottom: 0.2rem dashed #fff;
      display: flex;
  }
@@ -793,14 +756,14 @@
  }
  
  .six-2 {
-     width: 100%;
-     height: 85%;
+     width: 15rem;
+     height: 20rem;
  }
  
  .six-2-1,
  .six-2-2 {
-     width: 100%;
-     height: 50%;
+     width: 15rem;
+     height: 10rem;
  }
  
  .six-2-1,
@@ -819,8 +782,8 @@
  .six-2-1-2,
  .six-2-2-1,
  .six-2-2-2 {
-     width: 45%;
-     height: 90%;
+     width: 7rem;
+     height: 9rem;
  }
  
  .six-2-1-1,
@@ -835,8 +798,9 @@
  
  .six-img-1,
  .six-img-2 {
-     width: 90%;
-     height: 90%;
+     width: 6rem;
+     height: 8rem;
+     color: #fff;
  }
  
  .six-img-1 {
@@ -848,6 +812,6 @@
  }
  
  .six-img-1 img {
-     width: 100%;
-     height: 100%;
+     width: 6rem;
+     height: 8rem;
  }
