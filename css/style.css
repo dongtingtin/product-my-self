@@ -636,13 +636,11 @@
      align-self: center;
      display: flex;
      justify-content: center;
-     border: 1px solid red;
  }
  
  .five-2-attr-2 {
      align-self: center;
      font-size: 1.3rem;
-     border: 1px solid red;
  }
  
  .five-1-attr-1 {
@@ -694,13 +692,11 @@
      height: 20rem;
      display: flex;
      align-items: center;
-     border: 1px solid red;
  }
  
  .five-2-F {
      width: 14rem;
      height: 20rem;
-     border: 1px solid red;
  }
  
  .five-F-1 {
