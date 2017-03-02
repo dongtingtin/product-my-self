@@ -55,8 +55,8 @@
  }
  
  #music {
-     width: 17rem;
-     height: 3rem;
+     width: 17.5rem;
+     height: 2.5rem;
      display: flex;
      flex-direction: row-reverse;
      /*border: 1px solid red;*/
