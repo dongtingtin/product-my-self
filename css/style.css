@@ -142,8 +142,16 @@
  }
  
  .arrow {
-     width: 2.5rem;
-     height: 2.5rem;
+     width: 18rem;
+     height: 4rem;
+     position: absolute;
+     bottom: 0.5rem;
+     z-index: 66666;
+ }
+ 
+ .arrow-1 {
+     width: 2rem;
+     height: 2rem;
      margin: 0 auto;
      margin-top: 50px;
      -webkit-animation: start 1.5s infinite ease-in-out;
