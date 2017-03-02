@@ -826,9 +826,11 @@
      width: 14rem;
      height: 10rem;
      border: 1px solid red;
+     display: flex;
  }
  
- .six-2-1-1 {
+ .six-2-1-1,
+ .six-2-2-2 {
      width: 7rem;
      height: 9rem;
      border: 1px solid red;
@@ -838,10 +840,10 @@
      background-color: rgba(255, 255, 255, 0.5);
  }
  
- .six-2-1-2 {
+ .six-2-1-2,
+ .six-2-2-1 {
      width: 7rem;
      height: 9rem;
-     border: 1px solid red;
      display: flex;
      justify-content: center;
      align-items: center;
@@ -852,7 +854,6 @@
      width: 6rem;
      height: 8rem;
      color: #fff;
-     border: 1px solid red;
      background-color: #fff;
  }
  
@@ -860,7 +861,6 @@
      width: 6rem;
      height: 8rem;
      color: #fff;
-     border: 1px solid red;
      background-color: rgb(8, 161, 239);
  }
  
@@ -874,70 +874,4 @@
      height: 8rem;
      font-size: 0.61rem;
      color: #fff;
-     border: 1px solid red;
  }
- /*.six-2 {
-     width: 14rem;
-     height: 20rem;
-     border: 1px solid red;
- }
- 
- .six-2-1,
- .six-2-2 {
-     width: 14rem;
-     height: 10rem;
-     border: 1px solid red;
- }
- 
- .six-2-1,
- .six-2-2,
- .six-2-1-1,
- .six-2-1-2,
- .six-2-2-1,
- .six-2-2-2,
- .six-2-attr {
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     border: 1px solid red;
- }
- 
- .six-2-1-1,
- .six-2-1-2,
- .six-2-2-1,
- .six-2-2-2 {
-     width: 7rem;
-     height: 9rem;
-     border: 1px solid red;
- }
- 
- .six-2-1-1,
- .six-2-2-2 {
-     background-color: rgba(255, 255, 255, 0.5);
- }
- 
- .six-2-1-2,
- .six-2-2-1 {
-     background-color: rgba(8, 161, 239, 0.5);
- }
- 
- .six-img-1,
- .six-img-2 {
-     width: 6rem;
-     height: 8rem;
-     color: #fff;
-     border: 1px solid red;
- }
- 
- .six-img-1 {
-     background-color: #fff;
- }
- 
- .six-img-2 {
-     font-size: 0.6rem;
- }
- 
- .six-img-1 img {
-     width: 6rem;
-     height: 8rem;
- }*/
