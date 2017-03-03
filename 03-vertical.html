@@ -24,7 +24,7 @@
         <div class="swiper-wrapper">
             <div class="swiper-slide" id="face">
                 <div id="res" class="ani" swiper-animate-effect="bounceInDown" swiper-animate-duration="1.5s" swiper-animate-delay="0.3s">
-                    <div class="pop ani" swiper-animate-effect="zoomIn" swiper-animate-duration="2s" swiper-animate-delay="1.5s">
+                    <div class="pop ani" swiper-animate-effect="bounceInDown" swiper-animate-duration="2s" swiper-animate-delay="1.5s">
                         <div class="pop-1">
                             <div class="jianli">
                                 <div class="ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="1s" swiper-animate-delay="3s">个</div>
@@ -32,12 +32,12 @@
                                 <div class="ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="1.4s" swiper-animate-delay="3.4s">简</div>
                                 <div class="ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="1.6s" swiper-animate-delay="3.6s">历</div>
                             </div>
-                            <div class="job ani" swiper-animate-effect="bounceInDown" swiper-animate-duration="1.5s" swiper-animate-delay="2s">Job resume</div>
-                            <div class="name ani" swiper-animate-effect="zoomIn" swiper-animate-duration="2s" swiper-animate-delay="2s">小可爱</div>
-                            <div class="zhiwei ani" swiper-animate-effect="rollIn" swiper-animate-duration="1s" swiper-animate-delay="2s">
+                            <div class="job ani" swiper-animate-effect="bounceInDown" swiper-animate-duration="2.5s" swiper-animate-delay="2s">Job resume</div>
+                            <div class="name ani" swiper-animate-effect="zoomIn" swiper-animate-duration="2.5s" swiper-animate-delay="2s">小可爱</div>
+                            <div class="zhiwei ani" swiper-animate-effect="rollIn" swiper-animate-duration="3s" swiper-animate-delay="2s">
                                 <img src="image/02.png" alt="">web前端
                             </div>
-                            <div class="time ani" swiper-animate-effect="flip" swiper-animate-duration="2s" swiper-animate-delay="2.5s"><img src="image/03.png" alt=""></div>
+                            <div class="time ani" swiper-animate-effect="flip" swiper-animate-duration="2s" swiper-animate-delay="3s"><img src="image/03.png" alt=""></div>
                         </div>
                     </div>
                 </div>
@@ -362,10 +362,10 @@
         $('.music-1').click(function() {
             $('.music-1').toggleClass('rotate');
             if (i == 0) {
-                $('.of')[0].play();
+                $('.of')[0].pause();
                 i = 1;
             } else {
-                $('.of')[0].pause();
+                $('.of')[0].play();
                 i = 0;
             }
         })
