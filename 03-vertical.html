@@ -361,40 +361,17 @@
                 swiperAnimate(swiper); //每个slide切换结束时也运行当前slide动画
             }
         })
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        // var i = 0;
-        // $('.music-1').click(function() {
-        //     $('.music-1').toggleClass('rotate');
-        //     if (i == 0) {
-        //         $('.of')[0].play();
-        //         i = 1;
-        //     } else {
-        //         $('.of')[0].pause();
-        //         i = 0;
-        //     }
-        // })
+        var i = 0;
+        $('.music-1').click(function() {
+            $('.music-1').toggleClass('rotate');
+            if (i == 0) {
+                $('.of')[0].play();
+                i = 1;
+            } else {
+                $('.of')[0].pause();
+                i = 0;
+            }
+        })
     </script>
 </body>
 
