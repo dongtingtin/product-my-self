@@ -1,11 +1,8 @@
 $('.banner-img-2').click(function() {
-    setInterval(function() {
-        $(this).text('检查更新中...');
-        setTimeout(function() {
-            $('.banner-img-2').text('更新已完成');
-        }, 2000);
-    }, 5000)
-
+    $(this).text('检查更新中...');
+    setTimeout(function() {
+        $('.banner-img-2').text('更新已完成');
+    }, 2000);
 })
 var i = 0;
 $('.radius').click(function() {
