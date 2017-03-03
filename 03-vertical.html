@@ -16,7 +16,7 @@
 
     <div class="swiper-container">
         <div id="music" style="position: absolute;z-index:66666">
-            <audio autoplay loop class="of"><source src="music.mp3" type="audio/mpeg"></audio>
+            <audio loop class="of"><source src="music.mp3" type="audio/mpeg"></audio>
             <div class="music-1 rotate"></div>
         </div>
         <div class="arrow">
@@ -362,7 +362,9 @@
             }
         })
         var i = 0;
+
         $('.music-1').click(function() {
+            autoplay = true;
             $('.music-1').toggleClass('rotate');
             if (i == 0) {
                 $('.of')[0].play();
