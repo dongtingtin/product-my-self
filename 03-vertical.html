@@ -361,10 +361,13 @@
                 swiperAnimate(swiper); //每个slide切换结束时也运行当前slide动画
             }
         })
+        $('.of').ready(function() {
+            autoplay = true;
+        })
         var i = 0;
 
         $('.music-1').click(function() {
-            autoplay = true;
+
             $('.music-1').toggleClass('rotate');
             if (i == 0) {
                 $('.of')[0].play();
