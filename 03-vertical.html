@@ -364,12 +364,12 @@
         var i = 0;
         $('.music-1').click(function() {
             $('.music-1').toggleClass('rotate');
-            if (i == 1) {
+            if (i == 0) {
                 $('.of')[0].play();
-                i = 0;
+                i = 1;
             } else {
                 $('.of')[0].pause();
-                i = 1;
+                i = 0;
             }
         })
     </script>
